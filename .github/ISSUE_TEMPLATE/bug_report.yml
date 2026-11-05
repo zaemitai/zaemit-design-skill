@@ -1,0 +1,45 @@
+name: 버그 신고
+description: 스킬이 멈추거나, 오류가 나거나, 시안이 이상하게 나올 때
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        알려 주셔서 고맙습니다. 공개하면 안 되는 정보(전화번호, 주소, 아직 발표하지 않은 내용)는 지우고 올려 주세요.
+  - type: textarea
+    id: what
+    attributes:
+      label: 무슨 일이 있었나요?
+      description: Claude에게 무엇을 부탁했고, 어디에서 무엇이 잘못됐는지 적어 주세요.
+      placeholder: 재밋으로 꽃집 홈페이지를 부탁했는데, 사진 고르기 단계에서 멈췄어요.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 어떻게 되길 기대했나요?
+    validations:
+      required: false
+  - type: textarea
+    id: log
+    attributes:
+      label: 오류 메시지
+      description: 화면에 나온 오류나 스크립트 출력이 있으면 그대로 붙여 주세요.
+      render: shell
+    validations:
+      required: false
+  - type: input
+    id: preview
+    attributes:
+      label: 시안 링크 (있으면)
+      placeholder: https://zaemit.ai/design/p/...
+    validations:
+      required: false
+  - type: input
+    id: env
+    attributes:
+      label: 사용 환경
+      description: 운영체제, Python 버전, Claude Code 버전
+      placeholder: macOS 15, Python 3.12, Claude Code 2.x
+    validations:
+      required: false

@@ -1,0 +1,18 @@
+name: 기능 제안
+description: 스킬에 있었으면 하는 것, 더 좋아졌으면 하는 것
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 어떤 것이 있으면 좋을까요?
+      placeholder: 시안을 만들 때 우리 가게 로고도 넣을 수 있으면 좋겠어요.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 왜 필요한가요?
+      description: 어떤 상황에서 불편했는지 적어 주시면 더 잘 이해할 수 있어요.
+    validations:
+      required: false

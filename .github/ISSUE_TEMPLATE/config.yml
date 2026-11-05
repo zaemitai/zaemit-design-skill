@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 재밋 도움말
+    url: https://zaemit.ai/help-center
+    about: 재밋 서비스 사용법(편집기, 도메인, 결제, 운영)은 여기에서 찾아보세요.
+  - name: 재밋 고객센터
+    url: https://zaemit.ai/customer-center
+    about: 재밋 서비스 이용 문의는 고객센터로 보내 주세요.
