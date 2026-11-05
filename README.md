@@ -18,7 +18,7 @@ Claude가 사이트 기획과 문구를 쓰고, [재밋](https://zaemit.ai) 디�
 
 ## 설치
 
-### Claude Code
+Claude Code에서 스킬 폴더로 받습니다.
 
 ```bash
 git clone https://github.com/zaemitai/zaemit-design-skill ~/.claude/skills/zaemit-design
@@ -29,10 +29,6 @@ git clone https://github.com/zaemitai/zaemit-design-skill ~/.claude/skills/zaemi
 ```
 재밋으로 꽃집 홈페이지 디자인해 줘
 ```
-
-### claude.ai
-
-[https://zaemit.ai/design/skill.zip](https://zaemit.ai/design/skill.zip) 을 내려받아 claude.ai 설정의 스킬 메뉴에 올립니다. 시안을 만들려면 Claude의 코드 실행 환경에서 `zaemit.ai` 로 요청을 보낼 수 있어야 합니다. 막혀 있으면 설정에서 네트워크 접근을 허용해 주세요.
 
 ## 필요한 것
 
