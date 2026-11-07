@@ -8,9 +8,11 @@ Claude Code에 "재밋으로 꽃집 홈페이지 디자인해 줘"라고 말해 
 
 Claude가 가게 이야기를 듣고 사이트를 기획하고 문구를 씁니다. 그 기획을 받아 [재밋](https://zaemit.ai) 디자인 엔진이 화면을 만들고, 만드는 동안 필요한 판단은 Claude가 직접 내립니다. 대화가 끝나면 브라우저에서 바로 열어 볼 수 있는 홈페이지 시안이 남아요.
 
+재밋은 어느 가게에나 같은 화면을 찍어 내지 않아요. 가게마다 어울리는 분위기를 먼저 정하고, 글꼴과 색, 여백, 사진, 움직임을 그 분위기에 맞춰 한 벌로 다듬어요. 한글 제목이 어디서 줄을 바꾸는지, 사진 한 장이 그 칸에 정말 맞는지까지 살펴서, 디자인 스튜디오에 맡긴 것처럼 완성도 있는 사이트를 만들어요.
+
 가입도, API 키도 필요 없어요.
 
-[바로 시작하기](#바로-시작하기) · [만든 예](#이렇게-만들어져요) · [재밋 디자인이 다른 점](#재밋-디자인이-다른-점) · [자주 묻는 질문](#자주-묻는-질문) · [English](#english)
+[바로 시작하기](#바로-시작하기) · [만든 예](#이렇게-만들어져요) · [제작사례](#재밋으로-만든-사이트) · [재밋 디자인이 다른 점](#재밋-디자인이-다른-점) · [시안 다음에는](#시안-다음에는-재밋에서-이어서) · [자주 묻는 질문](#자주-묻는-질문) · [English](#english)
 
 ## 바로 시작하기
 
@@ -83,15 +85,64 @@ Claude Code를 다시 열고 이렇게 말하면 됩니다.
 
 ## 재밋 디자인이 다른 점
 
-### 분위기에 맞춘 디자인 시스템
+### 같은 꽃집도, 가게마다 다른 얼굴로
 
-재밋에는 글꼴, 색, 여백, 사진의 결, 움직임까지 한 벌로 맞춘 디자인 시스템이 50가지가 넘게 있어요. 엔진은 가게가 하는 일과 바라는 분위기를 보고 어울리는 디자인 시스템을 정한 뒤, 그 위에 이 가게만의 섹션과 문구와 사진으로 사이트를 새로 제작해요.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="docs/images/mood-kkotdam.jpg" alt="꽃담 플라워 시안 첫 화면">
+      <b>꽃담 플라워</b><br><sub>꽃잎이 비치는 분홍빛 바탕 위로, 액자 속 꽃 사진이 한 장씩 바뀌어요. 제목도 꽃 색을 닮은 장밋빛이에요.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <img src="docs/images/draft-pc.jpg" alt="봄결 플라워 시안 첫 화면">
+      <b>봄결 플라워</b><br><sub>꽃다발, 꽃바구니, 화분 사진 세 장이 나란히 서고, 그 아래 큰 제목과 먹색 버튼이 단정하게 받쳐 줘요.</sub>
+    </td>
+  </tr>
+</table>
+
+둘 다 이 스킬로 만든 꽃집 시안이에요.
+
+재밋에는 글꼴, 색, 여백, 사진의 결, 움직임까지 한 벌로 맞춘 디자인 시스템이 50가지가 넘게 있어요. 엔진은 가게가 하는 일과 바라는 분위기를 보고 어울리는 디자인 시스템을 정한 뒤, 그 위에 이 가게만의 섹션과 문구와 사진으로 사이트를 새로 만들어요. 업종이 바뀌면 화면의 결도 크게 달라져요.
 
 - 호텔이라면, 해 질 녘 호박빛 조명과 모래빛 면 위로 사진이 천천히 겹쳐 바뀌고 글이 부드럽게 떠올라요.
 - 법률사무소라면, 밤의 먹색과 종이색 면이 크게 번갈아 흐르고 저녁 조명 속 사진이 어둠에서 천천히 떠올라요.
 - 학원이라면, 크림색 공책 같은 면 위에 굵은 두 줄 제목이 서고 한 낱말 아래로 빨간 펜 밑줄이 그어져요.
 
-그래서 같은 꽃집이라도 "차분하게", "화사하게"처럼 바라는 분위기에 따라 다른 얼굴의 사이트가 나와요.
+그래서 같은 꽃집이라도, 같은 업종이라도 늘 같은 얼굴이 나오지 않아요.
+
+### 첫 화면부터 문의까지, 한 편의 이야기로
+
+첫 화면만 공들이고 아래는 비슷한 칸을 늘어놓는 사이트가 많아요. 재밋은 메인 전체를 손님이 읽어 내려가는 이야기로 기획해요. 홈페이지형 메인은 머리와 바닥을 빼고 10~15개 섹션으로 짜고, 무엇을 하는 곳인지, 무엇을 주는지, 왜 믿을 수 있는지가 차례로 드러난 뒤 찾아오는 길과 문의로 이어져요.
+
+위의 봄결 플라워 메인은 이렇게 흘러가요.
+
+1. 말로 다 못 한 마음은 꽃 한 다발에 담아요
+2. 꽃을 고르기 전에 받는 분을 먼저 떠올려요
+3. 선물할 꽃부터 집에 둘 꽃까지 만들어요
+4. 이런 날엔 꽃이 **말**을 대신해요 (생일, 기념일, 개업과 승진, 졸업과 입학, 고마운 마음)
+5. 계절마다 **꽃**이 바뀌어요
+6. 처음 주문해도 차례대로 하나씩 여쭤볼게요
+7. 정해 둔 날마다 **새 꽃**이 찾아가요
+8. 건네는 순간을 위해 꼭 지키는 네 가지
+9. 다른 분들이 고른 꽃을 먼저 구경해 보세요
+10. 꽃을 **오래** 보는 방법
+11. 자주 묻는 질문
+12. 찾아오시는 길
+13. 꽃 주문 문의
+
+섹션 제목은 손님에게 말을 건네듯 쓰고, 강조할 낱말 하나만 굵게 세워요. 훑어 내려가기만 해도 이 가게가 어떤 곳인지 마음에 들어와요.
+
+### 움직임은 장면처럼, 그러나 차분하게
+
+<p align="center">
+  <img src="docs/images/motion-scene.webp" alt="PACE/LINE 첫 화면을 스크롤하는 모습" width="88%">
+</p>
+
+<sub>재밋 제작사례 PACE/LINE의 첫 화면을 스크롤하는 모습이에요. 함께 달리는 사람들 사이로 문구가 떠오르고, 해 질 녘 언덕을 달리는 한 사람을 따라 거리가 0km에서 10km까지 올라가요.</sub>
+
+- 장면형 첫 화면은 스크롤하는 동안 사진과 글이 다음 장면으로 넘어가며 이야기를 이어 가요.
+- 사진은 블라인드처럼 밀려 나가지 않고 녹아들듯 바뀌어요. 화면이 정신없이 흔들리지 않게, 움직임은 늘 차분하게 잡아요.
+- 기기에서 '동작 줄이기'를 켠 방문자에게는 움직임 없이 정돈된 화면을 보여 줘요.
 
 ### 한글이 예쁘게 보이도록
 
@@ -112,20 +163,21 @@ Claude Code를 다시 열고 이렇게 말하면 됩니다.
 - 후보 사진은 Claude가 한 장씩 보고 그 칸에 맞는 것만 넣어요. 같은 사진을 두 번 쓰지 않고, 맞는 사진이 없으면 엉뚱한 사진 대신 빈 사진 자리로 둬요.
 - 사진 여러 장을 나란히 둘 때는 모양을 섞지 않고, 붙여 놓은 사진 사이로 바탕이 비치지 않게 맞춰요.
 
-### 움직임은 장면처럼, 그러나 차분하게
-
-- 장면형 첫 화면은 스크롤하는 동안 사진과 글이 다음 장면으로 넘어가며 이야기를 이어 가요. 사진은 블라인드처럼 밀려 나가지 않고 녹아들듯 바뀌어요.
-- 기기에서 '동작 줄이기'를 켠 방문자에게는 움직임 없이 정돈된 화면을 보여 줘요.
-
 ### 문구는 손님이 쓰는 말로
 
 - 업계 말과 어려운 한자어는 손님이 쓰는 쉬운 말로 바꿔요. 기장은 "장부 정리"로, 통기성은 "바람이 잘 통함"으로 써요.
 - 말하지 않은 가격, 주소, 전화번호, 영업시간은 지어내지 않아요. 자리만 잡아 둔 견본 값이 있으면 무엇인지 따로 알려 드려요.
-- 홈페이지형 메인은 머리와 바닥을 빼고 10~15개 섹션으로 기획해요. 무엇을 하는 곳인지, 무엇을 주는지, 왜 믿을 수 있는지가 차례로 드러나요.
 
 ### PC에서도 휴대폰에서도
 
-- 같은 시안이 휴대폰 화면에 맞게 다시 짜여요. 표는 휴대폰에서 카드처럼 세로로 쌓이고, 큰 제목은 좁은 화면에서도 칸 밖으로 넘치지 않게 크기를 잡아요.
+<p align="center">
+  <img src="docs/images/mobile.jpg" alt="휴대폰 첫 화면 다섯 곳 — 꽃담 플라워, Maison Helvetia, PACE/LINE, VOID FORM, 한상">
+</p>
+
+<sub>왼쪽부터 꽃담 플라워(이 스킬로 만든 시안), Maison Helvetia, PACE/LINE, VOID FORM, 한상의 휴대폰 첫 화면이에요.</sub>
+
+- 같은 시안이 휴대폰 화면에 맞게 다시 짜여요. PC에서 옆으로 놓였던 사진과 글은 위아래로 자리를 바꾸고, 큰 제목은 좁은 화면에서도 칸 밖으로 넘치지 않게 크기를 잡아요.
+- 표는 휴대폰에서 카드처럼 세로로 쌓여, 옆으로 밀어 보지 않아도 한눈에 읽혀요.
 
 ## 이렇게 말해 보세요
 
@@ -154,15 +206,20 @@ Design an English homepage for our guesthouse in Seoul with Zaemit.
 
 ## 시안 다음에는 재밋에서 이어서
 
-마음에 드는 시안은 재밋에 올려 실제로 운영하는 사이트로 키울 수 있어요. 시안 끝에 나오는 **재밋에 올리기** 링크로 로그인하면, 바로 고칠 수 있는 코드를 받아 이어서 만들어요.
+재밋은 시안을 만들고 끝나는 도구가 아니에요. 마음에 드는 시안은 재밋에 올려, 손님을 맞는 진짜 사이트로 키울 수 있어요. 시안 끝에 나오는 **재밋에 올리기** 링크로 로그인하면, 바로 고칠 수 있는 코드를 받아 이어서 만들어요.
 
-- **AI 수정**: 고칠 섹션만 말로 고쳐요. 바뀐 내역이 남아서 언제든 되돌릴 수 있어요.
-- **웹 에디터**: 문구, 사진, 링크를 직접 고치고 바로 확인해요.
+- **고칠 곳만 말로**: 전체를 다시 만들 필요 없이 고칠 섹션만 AI에게 말해요. 바뀐 내역이 남아서 언제든 이전으로 되돌릴 수 있어요.
+- **직접 고치기**: 웹 에디터에서 문구, 사진, 링크를 직접 바꾸고 바로 확인해요.
 - **서브페이지와 데이터베이스**: 메인에 이어 서브페이지를 만들고, 데이터와 관리자 화면까지 연결해요.
-- **17가지 기능**: 게시판, 문의·신청 폼, 예약, 지도·오시는 길, 상품·주문·배송 관리, 결제, 쿠폰, SNS 로그인, 고객 알림 발송, 검색·AI 노출(SEO·AEO) 등
+- **"게시판 넣어 줘" 한마디로**: 기능을 말하면 데이터를 담을 곳과 관리자 화면까지 함께 만들어져요. 지금 쓸 수 있는 기능은 17가지예요.
+  - 게시판, 문의·신청 폼, 예약, 지도·오시는 길, 상품 관리, 주문 관리, 배송 관리, 결제, 쿠폰, SNS 로그인, 고객 알림 발송(문자·알림톡·이메일), 상담 버튼·위젯, 동영상 강의, 미디어 넣기(유튜브·인스타그램 등), 마케팅 픽셀·전환 추적, 웹훅·자동화, 검색·AI 노출(구글·네이버 등록, SEO·AEO)
+- **팀이 함께**: 팀원을 초대하고 역할과 권한을 나눠, 기획부터 수정과 운영까지 한 워크스페이스에서 같이 봐요.
+- **반복 운영은 AI가**: 들어오는 문의와 예약, 콘텐츠·팝업·게시판 요청을 콘솔에서 AI가 처리하고, 판단이 필요한 일은 사람이 함께해요.
 - **대화로 운영**: 재밋 커넥터(`https://zaemit.ai/mcp`)를 Claude에 연결하면 대화하면서 사이트를 계속 고치고 운영할 수 있어요. 연결하는 법은 [재밋 MCP 연결 안내](https://mcp.zaemit.ai/)에 있어요.
 
 재밋에 올리지 않고 **HTML 받기**로 파일을 받아 직접 고치고, 서브페이지를 이어서 만들어도 됩니다.
+
+다른 AI 빌더가 빠른 초안에서 멈출 때, 재밋은 수정과 데이터, 관리자 기능, 운영까지 한 흐름으로 이어 가요. 남들은 만들기까지, 재밋은 운영까지 함께해요.
 
 ## 어떻게 만들어지나요
 
@@ -281,13 +338,14 @@ pip install Pillow
 
 What makes the designs good:
 
-- **Design systems, not one look.** More than 50 design systems, each pairing type, color, spacing, photo style and motion. The engine matches one to the business and mood, then builds the site fresh from that business's own sections, copy and photos.
+- **Design systems, not one look.** More than 50 design systems, each pairing type, color, spacing, photo style and motion. The engine matches one to the business and mood, then builds the site fresh from that business's own sections, copy and photos. Two flower shops made with this skill come out with two different faces (see the screenshots above).
+- **A whole page that tells a story.** A homepage main is planned as 10 to 15 sections that read top to bottom: what the business does, what it offers, why to trust it, then how to find it and get in touch.
 - **Korean typography done right.** Korean text is set in Pretendard, headlines break between words and balance across lines, and title sizes are tuned for Korean on both desktop and phone. Sites in English and other languages work too.
 - **No made-up colors.** Your color if you name one, otherwise a vetted palette (Tailwind CSS and Radix scales) that fits the design. Contrast is checked after the build.
 - **Photos chosen by looking.** Each section gets a written photo brief; Claude looks at the candidates and only places ones that fit. Openly licensed photos are credited at the bottom of the page automatically.
 - **Calm, cinematic motion.** Scenes advance as you scroll, photos dissolve rather than slide, and visitors with reduced motion turned on get a still, tidy page.
 - **Honest copy.** Plain words customers use, and no invented prices, addresses, phone numbers or opening hours.
 
-When you like a draft, upload it to Zaemit to add sub-pages, a database, 17 built-in features (boards, forms, booking, maps, shop, payments, SEO and more), and keep editing through the Zaemit connector (`https://zaemit.ai/mcp`, [setup guide](https://mcp.zaemit.ai/)) in Claude.
+When you like a draft, upload it to Zaemit and keep going: edit one section at a time by asking the AI (with history you can roll back), fine-tune in the web editor, add sub-pages and a database, switch on 17 built-in features (boards, forms, booking, maps, shop, payments, notifications, SEO and more), work with your team in one workspace, and keep running the site from Claude through the Zaemit connector (`https://zaemit.ai/mcp`, [setup guide](https://mcp.zaemit.ai/)).
 
 Code and docs are MIT licensed. Images in `docs/images` have their own terms, see [CREDITS.md](docs/images/CREDITS.md). "Zaemit" and its logo are not covered by the license.
